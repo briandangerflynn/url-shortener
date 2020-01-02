@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+header {
+  display: flex;
+  text-align: center;
+  height: 100px;
+  align-items: center;
+  background-color: orange;
+}
+
+header h1 {
+  width: 75%;
+  margin: 0;
+  color: white;
+}
+
+header a {
+  width: 25%;
+  color: white;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+main {
+  min-width: 450px;
+  padding: 100px 10%;
+  text-align: center;
+  background-color: #fed8b1;
+  min-height: 70vh;
+}
+
+input, button {
+  display: inline-block;
+  height: 35px;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 70%;
+  padding-left: 10px;
+}
+
+button {
+  width: 29%;
+  padding-top: 2px;
+  font-weight: bold;
+  background-color: orange;
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: .8;
+}
